@@ -5,7 +5,6 @@
 use crate::{GestureType, TouchEvent, TouchPoint, TouchType};
 
 // Register addresses
-pub(crate) const I2C_ADDR: u8 = 0x38;
 pub(crate) const GEST_ID_ADDR: u8 = 0x01;
 pub(crate) const CTRL_ADDR: u8 = 0x86;
 pub(crate) const TIME_ENTER_MONITOR_ADDR: u8 = 0x87;
